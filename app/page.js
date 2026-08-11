@@ -79,6 +79,24 @@ export default function Home() {
           </div>
         )}
       </div>
+          {/* BOTÃO FLUTUANTE LOJA */}
+<a href="https://neobio-link-pdx7612nk-neobiolinkoficial-4397s-projects.vercel.app/loja" 
+   target="_blank"
+   style={{
+     position: "fixed",
+     bottom: "20px",
+     right: "20px",
+     background: "#FF2E9F",
+     color: "black",
+     padding: "15px 20px",
+     borderRadius: "30px",
+     fontWeight: "bold",
+     textDecoration: "none",
+     zIndex: 9999,
+     boxShadow: "0 0 20px #FF2E9F"
+   }}>
+  🛍️ LOJA OFICIAL
+</a>
     </main>
   );
 }
